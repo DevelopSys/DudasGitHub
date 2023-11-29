@@ -6,5 +6,9 @@ public class Entrada {
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = (int) (Math.random()*98)+1;
         }
+
+        for (int i = 0; i < numeros.length; i++) {
+            System.out.println(numeros[i]);
+        }
     }
 }
